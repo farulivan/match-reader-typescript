@@ -1,0 +1,29 @@
+{
+  "name": "match-reader-typescript",
+  "version": "1.0.0",
+  "description": "Exercise using Typescript to make a simple app for processing a Soccer Match data",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farulivan/match-reader-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farulivan/match-reader-typescript/issues"
+  },
+  "homepage": "https://github.com/farulivan/match-reader-typescript#readme",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@types/node": "^18.11.18"
+  }
+}
